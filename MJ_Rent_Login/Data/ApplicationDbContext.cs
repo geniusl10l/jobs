@@ -11,8 +11,7 @@ namespace MJ_Rent_Login.Data
         {
         }
         public DbSet<MJ_Rent_Login.Models.MeetRoom> MeetRoom { get; set; }
-        public DbSet<MJ_Rent_Login.Models.BorrowRecord> BorrowRecord { get; set; }
-        public DbSet<MJ_Rent_Login.Models.NotifyInfo> NotifyInfo { get; set; }
+
         public DbSet<MJ_Rent_Login.Models.Reserve> Reserve { get; set; }
         
     }
