@@ -14,7 +14,7 @@ namespace MJ_Rent_Login.Pages.Reserves
     public class DetailsModel : PageModel
     {
         private readonly MJ_Rent_Login.Data.ApplicationDbContext _context;
-        public SelectList Details { get; set; }
+       /* public SelectList Details { get; set; }*/
 
         public DetailsModel(MJ_Rent_Login.Data.ApplicationDbContext context)
         {
@@ -41,10 +41,10 @@ namespace MJ_Rent_Login.Pages.Reserves
             {
                 Reserve = reserve;
             }
-            var namequery = from m in _context.MeetRoom
+            /*var namequery = from m in _context.MeetRoom
                             where m.Name
                             select  m.Name ;
-            Details = new SelectList(namequery, "Name");
+            Details = new SelectList(namequery, "Name");*/
             return Page();
         }        
     }
