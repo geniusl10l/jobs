@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MJ_Rent_Login",
+    "\\MJ_Rent_Login\\Data"
   ],
-  "SelectedNode": "\\MJ_Rent_Login.sln",
+  "SelectedNode": "\\MJ_Rent_Login\\Data\\ApplicationDbContext.cs",
   "PreviewInSolutionExplorer": false
 }
